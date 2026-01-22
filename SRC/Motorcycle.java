@@ -1,5 +1,5 @@
 public class Motorcycle {
-    private String colorA;
+    public String colorA;
 
     public Motorcycle(String color1) {
         this.colorA = color1;

@@ -1,3 +1,4 @@
-public class Material {
-    STEEL,
+public enum Material {
+    STEEL, ALUMINIUM, MAGNESIUM, TI
+
 }
