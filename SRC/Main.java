@@ -6,6 +6,9 @@ public class Main {
         Motorcycle m2 = new Motorcycle("Pink");
         System.out.println(m2.getColorA());
 
+        Motorcycle m3 = new Motorcycle("Blue");
+        System.out.println(m3.getColorA());
+
     }
 }
 
