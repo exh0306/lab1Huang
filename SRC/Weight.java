@@ -2,7 +2,7 @@ public class Weight {
     private double value;
     private String unit;
 
-    public Weight(double value) {
+    public Weight(double value, String unit) {
         this.value = value;
         this.unit = "kg";
     }

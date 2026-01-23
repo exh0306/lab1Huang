@@ -2,11 +2,12 @@ public class Motorcycle {
 
     public String color;
     private double size;
-    public Frame frame;
-    public Wheel[] wheels;
-    public Engine engine;
+    private Frame frame;
+    private Wheel[] wheels;
+    private Engine engine;
+    private Weight weight;
 
-    public Motorcycle(String color, double size, Material frameMaterial, double wheelSize, Engine engine) {
+    public Motorcycle(String color, double size, Material frameMaterial, double wheelSize, Engine engine, Weight weight) {
         this.color = color;
         this.size = size;
         this.frame = new Frame(frameMaterial);
@@ -14,6 +15,7 @@ public class Motorcycle {
         this.wheels[0] = new Wheel(wheelSize);
         this.wheels[1] = new Wheel(wheelSize);
         this.engine = engine;
+        this.weight = weight;
     }
 
     public String getColor() {
@@ -32,16 +34,20 @@ public class Motorcycle {
         this.size = size;
     }
 
-    public Engine getEngine() {
-        return engine;
-    }
-
     public Material getFrameMaterial() {
         return frame.getMaterial();
     }
 
     public double getWheelSize() {
         return wheels[0].getSize();
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public Weight getWeight() {
+        return weight;
     }
 
     public void start() {
