@@ -1,3 +1,15 @@
+/**
+
+ * Project: Lab 1
+ * Purpose Details: Motorcycle
+ * Course: IST 242
+ * Author: Emlety Huang
+ * Date Developed:1/15/26
+ * Last Date Changed: 1/23/26
+ * Revision:
+ *
+ */
+
 public class Main {
     public static void main(String[] args) {
 

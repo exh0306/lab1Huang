@@ -1,10 +1,33 @@
-public class Motorcycle {
+/**
 
+ * Project:
+ * Purpose Details: Motorcycle
+ * Course: IST 242
+ * Author: Emlety Huang
+ * Date Developed: 1/15/26
+ * Last Date Changed: 1/23/26
+ * Rev:
+
+ */
+// Motorcycle class
+public class Motorcycle {
+    /**
+     * The color of the motorcycle
+     */
     public String color;
+    /**
+     * The size of the motorcycle
+     */
     private double size;
     private Frame frame;
     private Wheel[] wheels;
+    /**
+     * the engine of the motorcycle
+     */
     private Engine engine;
+    /**
+     * the weight in kg of the motorcycle
+     */
     private Weight weight;
 
     public Motorcycle(String color, double size, Material frameMaterial, double wheelSize, Engine engine, Weight weight) {
