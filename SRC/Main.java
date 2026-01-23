@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         Engine e1 = new Engine ("680");
-        Engine e2 = new Engine ("640", "550");
+        Engine e2 = new Engine ("640", "540");
         Engine e3 = new Engine ("720", "700");
 
         Weight w1 = new Weight (180.5, "kg");
