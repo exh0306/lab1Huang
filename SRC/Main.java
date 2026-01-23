@@ -17,18 +17,24 @@ public class Main {
         System.out.println("Motorcycle 1 material: " + m1.getFrameMaterial());
         System.out.println("Motorcyle 1 engine cc: " + m1.getEngine().getCC());
         System.out.println("Motorcycle 1 weight: " + m1.getWeight().getValue() + " " + m1.getWeight().getUnit());
+        m1.start();
+        m1.stop();
 
         System.out.println("Motorcycle 2 color: " + m2.getColor());
         System.out.println("Motorcycle 2 size: " + m2.getSize());
         System.out.println("Motorcycle 2 material: " + m2.getFrameMaterial());
         System.out.println("Motorcyle 2 engine cc: " + m2.getEngine().getCC());
         System.out.println("Motorcycle 2 weight: " + m2.getWeight().getValue() + " " + m2.getWeight().getUnit());
+        m2.start();
+        m2.stop();
 
         System.out.println("Motorcycle 3 color: " + m3.getColor());
         System.out.println("Motorcycle 3 size: " + m3.getSize());
         System.out.println("Motorcycle 3 material: " + m3.getFrameMaterial());
         System.out.println("Motorcyle 3 engine cc: " + m3.getEngine().getCC());
         System.out.println("Motorcycle 3 weight: " + m3.getWeight().getValue() + " " + m3.getWeight().getUnit());
+        m3.start();
+        m3.stop();
 
     }
 }
