@@ -15,7 +15,8 @@ public class Main {
         System.out.println("Motorcycle 1 color: " + m1.getColor());
         System.out.println("Motorcycle 1 size: " + m1.getSize());
         System.out.println("Motorcycle 1 frame material: " + m1.getFrameMaterial());
-        System.out.println("Motorcyle 1 engine cc: " + m1.getEngine().getCC());
+        System.out.println("Motorcycle 1 wheel size: " + m1.getWheelSize());
+        System.out.println("Motorcycle 1 engine cc: " + m1.getEngine().getCC());
         System.out.println("Motorcycle 1 weight: " + m1.getWeight().getValue() + " " + m1.getWeight().getUnit());
         m1.start();
         m1.stop();
@@ -23,7 +24,8 @@ public class Main {
         System.out.println("Motorcycle 2 color: " + m2.getColor());
         System.out.println("Motorcycle 2 size: " + m2.getSize());
         System.out.println("Motorcycle 2 frame material: " + m2.getFrameMaterial());
-        System.out.println("Motorcyle 2 engine cc: " + m2.getEngine().getCC());
+        System.out.println("Motorcycle 2 wheel size: " + m2.getWheelSize());
+        System.out.println("Motorcycle 2 engine cc: " + m2.getEngine().getCC());
         System.out.println("Motorcycle 2 weight: " + m2.getWeight().getValue() + " " + m2.getWeight().getUnit());
         m2.start();
         m2.stop();
@@ -31,7 +33,8 @@ public class Main {
         System.out.println("Motorcycle 3 color: " + m3.getColor());
         System.out.println("Motorcycle 3 size: " + m3.getSize());
         System.out.println("Motorcycle 3 frame material: " + m3.getFrameMaterial());
-        System.out.println("Motorcyle 3 engine cc: " + m3.getEngine().getCC());
+        System.out.println("Motorcycle 3 wheel size: " + m3.getWheelSize());
+        System.out.println("Motorcycle 3 engine cc: " + m3.getEngine().getCC());
         System.out.println("Motorcycle 3 weight: " + m3.getWeight().getValue() + " " + m3.getWeight().getUnit());
         m3.start();
         m3.stop();
