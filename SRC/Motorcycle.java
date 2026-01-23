@@ -30,6 +30,17 @@ public class Motorcycle {
      */
     private Weight weight;
 
+
+    /**
+     *
+     * @param color The color of the motorcycle frame.
+     * @param size The size of the motorcycle  frame.
+     * @param frameMaterial The material used to build the motorcycle frame.
+     * @param wheelSize The size of the motorcycle wheels.
+     * @param engine The engine used by the motorcycle.
+     * @param weight The total weight of the motorcycle.
+     */
+
     public Motorcycle(String color, double size, Material frameMaterial, double wheelSize, Engine engine, Weight weight) {
         this.color = color;
         this.size = size;
