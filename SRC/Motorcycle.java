@@ -1,7 +1,7 @@
 public class Motorcycle {
 
     public String color;
-    public double size;
+    private double size;
     public Frame frame;
     public Wheel[] wheels;
     public Engine engine;
@@ -19,7 +19,41 @@ public class Motorcycle {
     public String getColor() {
         return color;
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getSize() {
+        return size;
+    }
+
+    public void setSize(double size) {
+        this.size = size;
+    }
+
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public Material getFrameMaterial() {
+        return frame.getMaterial();
+    }
+
+    public double getWheelSize() {
+        return wheels[0].getSize();
+    }
+
+    public void start() {
+        System.out.println("Motorcycle starting");
+    }
+
+    public void stop() {
+        System.out.println("Motorcycle stopping");
+    }
 }
+
+
 
 
 
