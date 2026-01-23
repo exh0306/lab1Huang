@@ -51,11 +51,11 @@ public class Motorcycle {
     }
 
     public void start() {
-        System.out.println("Motorcycle starting");
+        System.out.println("Motorcycle starting!");
     }
 
     public void stop() {
-        System.out.println("Motorcycle stopping");
+        System.out.println("Motorcycle stopping!");
     }
 }
 
