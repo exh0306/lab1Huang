@@ -18,5 +18,11 @@ public class Engine {
     public String getCC (){
         return this.cc;
     }
-    public void setHp(String hp1){}
+    public void setHp(String hp1){
+        this.hp = hp1;
+    }
+    public String getHP () {
+        return this.hp;
+    }
 }
+
