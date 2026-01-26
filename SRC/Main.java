@@ -12,7 +12,6 @@
  * Last Date Changed: 1/26/26
  * Revision: 1/26/26
  *
- *
  */
 
 /**
@@ -22,6 +21,7 @@
  * and prints their details to the console.
  */
 public class Main {
+
     /**
      * Entry point of the program.
      * @param args command-line arguments (not used)

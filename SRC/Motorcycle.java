@@ -33,7 +33,7 @@ public class Motorcycle {
 
 
     /**
-     * Adds two numbers and return the result.
+     * Constructs a Motorcycle with all specified parameters.
      *
      * @param color The color of the motorcycle frame.
      * @param size The size of the motorcycle  frame.
