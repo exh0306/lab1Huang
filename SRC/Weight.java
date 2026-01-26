@@ -1,8 +1,6 @@
 /**
  * The Weight class represents the weight of a motorcycle.
  * It stores a numeric value and its unit of measurement.
- *
- * @author emletyhuang
  */
 public class Weight {
 
@@ -13,11 +11,9 @@ public class Weight {
     private String unit;
 
     /**
-     * Constructs a Weight object with the specified value.
-     * The unit is set to kilograms (kg) by default.
-     *
-     * @param value the weight value
-     * @param unit the unit of measurement (default to kg)
+     * Constructs a Weight object with the specified value and unit.
+     * @param value the numeric value of the weight
+     * @param unit the unit of the weight
      */
     public Weight(double value, String unit) {
         this.value = value;

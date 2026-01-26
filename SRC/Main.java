@@ -14,14 +14,17 @@
  *
  *
  */
-public class Main {
 
+/**
+ * Main class for Lab 1
+ *This class contains the entry point of the program.
+ * It demonstrates creating Motorcycle objects with Engine and Weight,
+ * and prints their details to the console.
+ */
+public class Main {
     /**
-     * The main method serves as the entry point of the program.
-     * It creates Engine, Weight, and Motorcycle objects and
-     * displays their details.
-     *
-     * @param args command-lime arguments
+     * Entry point of the program.
+     * @param args command-line arguments (not used)
      */
     public static void main(String[] args) {
 
