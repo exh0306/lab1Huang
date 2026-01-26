@@ -3,14 +3,26 @@
  * Project: Lab 1
  * Purpose Details: Motorcycle
  * Course: IST 242
+ *
+ * This class contains the main method used to test
+ * the Motorcycle, Engine, Weight, and related classes.
+ *
  * Author: Emlety Huang
  * Date Developed:1/15/26
- * Last Date Changed: 1/23/26
- * Revision: 1/23/26
+ * Last Date Changed: 1/26/26
+ * Revision: 1/26/26
+ *
  *
  */
-
 public class Main {
+
+    /**
+     * The main method serves as the entry point of the program.
+     * It creates Engine, Weight, and Motorcycle objects and
+     * displays their details.
+     *
+     * @param args command-lime arguments
+     */
     public static void main(String[] args) {
 
         Engine e1 = new Engine ("680");

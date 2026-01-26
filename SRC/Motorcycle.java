@@ -5,10 +5,11 @@
  * Course: IST 242
  * Author: Emlety Huang
  * Date Developed: 1/15/26
- * Last Date Changed: 1/23/26
- * Rev: 1/23/26
+ * Last Date Changed: 1/26/26
+ * Rev: 1/26/26
 
  */
+
 // Motorcycle class
 public class Motorcycle {
     /**
@@ -53,42 +54,88 @@ public class Motorcycle {
         this.weight = weight;
     }
 
+    /**
+     * Returns the color of the motorcycle.
+     *
+     * @return the motorcycle color
+     */
     public String getColor() {
         return color;
     }
 
+    /**
+     * Sets the color of the motorcycle.
+     *
+     * @param color the new color of the motorcycle
+     */
     public void setColor(String color) {
         this.color = color;
     }
 
+    /**
+     * Returns the size of the wheel
+     *
+     * @return the wheel size
+     */
     public double getSize() {
         return size;
     }
 
+    /**
+     * Sets the size of the wheel.
+     *
+     * @param size of the new wheel size
+     */
     public void setSize(double size) {
         this.size = size;
     }
 
+    /**
+     * Returns the material used for the motorcycle frame.
+     *
+     * @return the frame material
+     */
     public Material getFrameMaterial() {
         return frame.getMaterial();
     }
 
+    /**
+     * Returns the size of the motorcycle wheels.
+     *
+     * @return the wheel size
+     */
     public double getWheelSize() {
         return wheels[0].getSize();
     }
 
+    /**
+     * Returns the engine of the motorcycle.
+     *
+     * @return the motorcycle engine
+     */
     public Engine getEngine() {
         return engine;
     }
 
+    /**
+     * Returns the weight of the motorcycle.
+     *
+     * @return the motorcycle weight
+     */
     public Weight getWeight() {
         return weight;
     }
 
+    /**
+     * Starts the motorcycle.
+     */
     public void start() {
         System.out.println("Motorcycle starting!");
     }
 
+    /**
+     * Stops the motorcycle.
+     */
     public void stop() {
         System.out.println("Motorcycle stopping!");
     }

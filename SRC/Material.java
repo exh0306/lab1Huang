@@ -1,5 +1,21 @@
-// Enumeration for Frame Material
+/**
+ *Enumeration for Frame Material
+ * that can be used for motorcycle frame.
+ *
+ * @author emletyhuang
+ */
 public enum Material {
-    STEEL, ALUMINIUM, MAGNESIUM, TI
+
+    /** Steel frame material */
+    STEEL,
+
+    /** Aluminium frame material */
+    ALUMINIUM,
+
+    /** Magnesium frame material */
+    MAGNESIUM,
+
+    /** Titanium frame material */
+    TI
 
 }
