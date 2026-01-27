@@ -3,10 +3,6 @@
  * Project: Lab 1
  * Purpose Details: Motorcycle
  * Course: IST 242
- *
- * This class contains the main method used to test
- * the Motorcycle, Engine, Weight, and related classes.
- *
  * Author: Emlety Huang
  * Date Developed:1/15/26
  * Last Date Changed: 1/26/26

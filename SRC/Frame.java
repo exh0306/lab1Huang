@@ -1,9 +1,3 @@
-/**
- * The Frame class represents the frame of a motorcycle.
- * It stores the material used to construct the frame.
- *
- * @author emletyhuang
- */
 public class Frame {
 
     /** Material used for the motorcycle frame*/
