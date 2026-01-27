@@ -3,7 +3,6 @@
  *It stores information such as engine displacement (cc)
  * and horsepower(hp)
  *
- * @author emletyhuang
  */
 public class Engine {
 

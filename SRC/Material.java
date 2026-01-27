@@ -2,7 +2,6 @@
  *Enumeration for Frame Material
  * that can be used for motorcycle frame.
  *
- * @author emletyhuang
  */
 public enum Material {
 

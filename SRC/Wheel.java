@@ -1,7 +1,6 @@
 /**
  * The Wheel class represents a motorcycle wheel.
  * It stores the size of the wheel.
- * @author emletyhuang
  *
  */
 public class Wheel {
